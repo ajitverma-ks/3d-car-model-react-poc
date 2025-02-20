@@ -31,4 +31,5 @@
 - Using `.glb` models simplifies implementation, improves rendering performance, and enhances the visual appeal of the application.
 
 ## Demo Video
-[![Watch the video](demo.webm)](demo.webm)
+https://github.com/user-attachments/assets/e3753004-75ca-4b84-a3dd-ed810df3d2e4
+
