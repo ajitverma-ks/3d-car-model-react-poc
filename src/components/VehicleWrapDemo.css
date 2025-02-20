@@ -1,0 +1,60 @@
+/* Full-page container */
+.full-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+  }
+  
+  /* Title styling */
+  .modal-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* 3D Canvas Container */
+  .canvas-container {
+    width: 100%;
+    height: 70vh;
+    background: #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Wrap selection styles */
+  .wrap-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Wrap images */
+  .wrap-option {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
+  }
+  
+  .wrap-option:hover {
+    transform: scale(1.1);
+    border: 2px solid #333;
+  }
+  
