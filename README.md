@@ -29,3 +29,6 @@
 - This approach significantly increases development complexity and does not provide a realistic UI representation.
 - Manually modeling vehicles would require extensive effort, including mapping UVs correctly for wrap textures.
 - Using `.glb` models simplifies implementation, improves rendering performance, and enhances the visual appeal of the application.
+
+## Demo Video
+[![Watch the video](demo.webm)](demo.webm)
